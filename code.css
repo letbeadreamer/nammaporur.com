@@ -1,0 +1,179 @@
+/* Your existing CSS styles go here */
+
+/* Style for the login button */
+#loginBtn, #googleLoginBtn, #reviewBtn{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  
+  
+  /* Style for the login form */
+  #loginForm {
+    margin-top: 10px;
+  }
+  
+  #loginForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #loginForm input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #loginForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+/* Set background image for the entire webpage */
+body {
+  background-image: url("bg_image1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x:hidden;
+  max-height:calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+
+}
+
+@media (max-width: 600px) {
+  /* CSS styles for smaller screens */
+}
+
+#intro{
+  font-size:30px;
+}
+
+span h1{
+  color:red;
+  align-items:center;
+  text-align:center;
+  font-size:100px;
+  text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.5), 
+  -2px -2px 4px rgba(255, 255, 255, 0.795);
+  padding-top:200px;
+}
+/*
+div{
+  padding-top:25px;
+  color:black;
+  font-size:30px;
+}
+*/
+table{
+  padding-top:200px;
+  border-spacing:100px;
+  padding-left:5px;
+  padding-right:5px;
+}
+#t1{
+  border:1px solid black;
+  padding-bottom:50px;
+  width:10%;
+  font-size:25px;
+  background-color: violet;
+}
+#p1{
+  border:1px solid black;
+  padding-bottom:50px;
+  width:15%;
+  font-size:25px;
+  background-color: violet;
+}
+#f1{
+  border:1px solid black;
+  padding-bottom:50px;
+  width:15%;
+  font-size:25px;
+  background-color: violet;
+}
+.secondby{
+  padding-top: 1px;
+
+}
+section #gle{
+  font-size:35px;
+
+}
+section #fst #snd{
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-top: 5px solid #b5d9e7;
+  border-left: 5px solid #b5d9e7;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color:darkcyan;
+}
+
+.Header{
+  background-color:darkcyan;
+  padding: 10px 0;
+  border-bottom:5px solid rgb(133, 130, 130);
+  border-left:5px solid rgb(155, 152, 152);
+}
+
+.navbar li a {
+  color:black;
+  text-decoration:none;
+}
+
+.navbar{
+  margin:0;
+  padding:0;
+  list-style:none;
+  text-align:right;
+}
+
+.navbar li{
+  display: inline-block;
+  margin-left:20px;
+}
+
+.navbar li:first-child{
+  margin-left:0;
+}
+
+.navbar li a, .navbar li button {
+  color: white; /* Change font color of navigation links and buttons */
+  text-decoration: none;
+
+
+}
+#googleLoginBtn {
+  margin-left: 10px; /* Add some space between the two buttons */
+}
+
+/* Style for the main content section (optional) */
+
+/* Style for the footer */
+
+
+.color li{
+  color:black;
+}
+

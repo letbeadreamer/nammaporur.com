@@ -1,0 +1,13 @@
+body{
+    background-image:url('bg_image1.jpg');
+}
+
+h2{
+    text-align:center;
+    align-items:center;
+}
+
+#loginForm{
+    text-align:center;
+    align-items:center;
+}

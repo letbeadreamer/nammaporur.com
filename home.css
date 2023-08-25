@@ -1,0 +1,36 @@
+body{
+    background-image: url("bg_image4.jpg");
+    background-size:cover;
+    background-position:flex;
+    background-repeat:no-repeat;
+    color:white;
+}
+
+.explore-button{
+    color:white;
+}
+
+#shop{
+    color:white;
+    align-items:center;
+    text-align:center;
+}
+#Restaurant1{
+    width:100px;
+    height:200px;
+    border:2px solid white;
+}
+
+#shop1{
+    width:100px;
+    height:100px;
+    border:2px solid white;
+}
+
+
+thead th {
+    padding: 15px 25px; /* Add horizontal padding and adjust as needed */
+}
+
+
+

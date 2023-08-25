@@ -1,0 +1,34 @@
+  
+body{
+   /* background-image: url('bg_image4.jpg');
+   background-size:cover;
+   background-position:flex;
+   background-repeat:no-repeat;
+   color:white; */
+   background-color:green;
+   
+}
+
+h1{
+  color:white;
+}
+
+
+
+
+/* Apply borders to table cells 
+table {
+    border-spacing: 10px 10px;
+    width: 1300px;
+    height: 700px;  Adjust the width as needed */
+  
+  
+  th, td {
+     /*Apply a 1px solid black border to cells*/ 
+    padding: 15px; /*Add padding for spacing within cells */
+    text-align: center;  /*Align text to the left within cells */
+  }
+
+#firstimg{
+  border: 5px dashed red;
+}

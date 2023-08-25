@@ -1,0 +1,27 @@
+/* Add styles for the reviews section */
+.reviews-section {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .review-form,
+  .review-list {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+  }
+  
+  .review-form h3,
+  .review-list h3 {
+    margin-bottom: 10px;
+  }
+
+body{
+    background-image: url('bg_image3.jpg');
+    color:white;
+    background-size:cover;
+    background-position:flex;
+    background-repeat:no-repeat;
+    background-color: black;
+
+}
